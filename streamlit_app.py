@@ -47,4 +47,4 @@ add_my_fruit = streamlit.multiselect("What fruit would you like to add:", ['Avoc
 #fruit_to_add = my_data_rows.loc[add_my_fruit]
 
 # Display the fruit to add.
-#streamlit.write("Thanks for adding ", fruit_to_add)
+streamlit.write("Thanks for adding ", add_my_fruit)
