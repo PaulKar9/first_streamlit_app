@@ -47,5 +47,5 @@ add_my_fruit = streamlit.multiselect("What fruit would you like to add:", ['Avoc
 
 # Display the fruit to add.
 streamlit.write("Thanks for adding ", add_my_fruit)
-#add_my_fruit_normalized = pandas.json_normalize(add_my_fruit)
-#streamlit.dataframe(add_my_fruit_normalized)
+# This will not work correctly but just go with it for now
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
