@@ -46,6 +46,6 @@ streamlit.dataframe(my_data_rows)
 add_my_fruit = streamlit.multiselect("What fruit would you like to add:", ['Avocado'])
 
 # Display the fruit to add.
-streamlit.write("Thanks for adding ", fruit_to_add)
+streamlit.write("Thanks for adding ", add_my_fruit)
 #add_my_fruit_normalized = pandas.json_normalize(add_my_fruit)
 #streamlit.dataframe(add_my_fruit_normalized)
